@@ -13,7 +13,8 @@ sayHelloInEnglish : function() {
 sayHelloInSpanish : function() {
     return "Hola";
 },
-    sayHelloInFrench : function() {
+
+sayHelloInFrench : function() {
     return "Bonjour";
 }
 };
