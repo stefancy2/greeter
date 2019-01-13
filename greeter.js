@@ -1,3 +1,4 @@
+
 module.exports = {
 
 sayHelloInEnglish : function() {
@@ -38,7 +39,22 @@ function sayHello(name){
 return sayHello;
 
 
+},
+
+sayHelloThisorSelfOuter: function(){
+	const self=this;
+	
+	let a = 2;
+	
+	console.log('outer'+a);
+	function innerFunction(){
+	console.log(a=a+1);
+	}
+
+	return innerFunction;
 }
+
+
 
 
 

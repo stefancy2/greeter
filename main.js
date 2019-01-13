@@ -15,4 +15,10 @@ console.log(sayHelloFactory.sayHello("Hi"));
 var sayHelloFactory2 = hello.sayHelloFactory2();
 console.log(sayHelloFactory2("Joooooooooo"));
 
+var inner = new hello.sayHelloThisorSelfOuter();
+inner();
+inner();
+
+
+
     
